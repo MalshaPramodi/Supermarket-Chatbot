@@ -23,8 +23,7 @@ Response Generation: Based on the matched patterns, the chatbot responds with a 
 Re-training: If new products or categories need to be added, the JSON file can be updated, and the chatbot model can be retrained with the new dataset.
 
 #### Technologies Used
-Python: The programming language used to develop the chatbot.
-
+Python: The programming language used to develop the chatbot.  
 NLTK: A powerful library for natural language processing that helps in text processing, training, and stemming/lemmatization.
 JSON: Used to store intents, patterns, and responses.
 Machine Learning: Utilized for matching user inputs to predefined patterns and generating responses.
