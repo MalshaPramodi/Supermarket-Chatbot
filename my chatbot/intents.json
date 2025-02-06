@@ -1,0 +1,284 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Hi there",
+                "Hello there",
+                "Hey there",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How are you",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hi there! How can I help you today?",
+                "Hello! How can I help you today?",
+                "Hey! How can I help you today?",
+                "Hi! How can I help",
+                "Hi!",
+                "Hello!",
+                "Hey!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Bye!",
+                "Thank you for visisting",
+                "Have a nice day"
+            ]
+        },
+        {
+            "tag": "thankyou",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks a lot!"
+            ],
+            "responses": [
+                "You're welcome!",
+                "My pleasure!",
+                "Happy to help you"
+            ]
+        },
+        {
+            "tag": "goods",
+            "patterns": [
+                "I want to buy some goods",
+                "I want to buy some products",
+                "What are the available goods?",
+                "I need to buy",
+                "I want some groceries"
+            ],
+            "responses": [
+                "We have a wide range of vagetables groceries and products available. Please tell me what you are looking for.",
+                "I will help you find the shelf numbers of the goods you want to buy. Please tell the items one by one."
+            ]
+        },
+        {
+            "tag": "fruits",
+            "patterns": [
+                "strawberry",
+                "apple",
+                "banana",
+                "orange",
+                "pineapple",
+                "watermelon",
+                "mango",
+                "avacado",
+                "grapes",
+                "pears",
+                "peaches",
+                "kiwi",
+                "papaya",
+                "guava",
+                "Where is apple",
+                "I want apple",
+                "Do you have papaya",
+                "Find kiwi",
+                "I need grapes",
+                "Could you tell me where the orange is",
+                "Can you tell me where the mango is located"
+            ],
+            "responses": [
+                "Fruits are in Shelf number 1.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "vegetables",
+            "patterns": [
+                "carrot",
+                "potato",
+                "tomato",
+                "onion",
+                "cabbage",
+                "cauliflower",
+                "broccoli",
+                "beans",
+                "peas",
+                "pumpkin",
+                "corn",
+                "cucumber",
+                "bell pepper",
+                "lettuce",
+                "Where is tomato",
+                "I want bell pepper",
+                "Do you have lettuce",
+                "Find cabbage",
+                "I need onion",
+                "Could you tell me where the broccoli is",
+                "Can you tell me where the carrot is located"
+            ],
+            "responses": [
+                "Vegetables are in Shelf number 2.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "meat",
+            "patterns": [
+                "chicken",
+                "beef",
+                "pork",
+                "fish",
+                "mutton",
+                "Sausages",
+                "Where is pork",
+                "I want fish",
+                "Do you have mutton",
+                "Find beef",
+                "I need chicken",
+                "Could you tell me where the sausages is",
+                "Can you tell me where the fish is located"
+            ],
+            "responses": [
+                "Meat is in Shelf number 3.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "dairy",
+            "patterns": [
+                "milk",
+                "cheese",
+                "yogurt",
+                "butter",
+                "curd",
+                "Where is milk",
+                "I want cheese",
+                "Do you have youghurt",
+                "Find butter",
+                "I need curd",
+                "Could you tell me where the butter is",
+                "Can you tell me where the butter is located"
+            ],
+            "responses": [
+                "Dairy products are in Shelf number 4.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "bakery",
+            "patterns": [
+                "bread",
+                "cake",
+                "pastries",
+                "Where is bread",
+                "I want cake",
+                "Do you have pastries",
+                "Find cake",
+                "I need bread",
+                "Could you tell me where the bread is",
+                "Can you tell me where the cake is located"
+            ],
+            "responses": [
+                "Bakery items are in Shelf number 5.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "snacks",
+            "patterns": [
+                "chips",
+                "nuts",
+                "biscuits",
+                "candies",
+                "chocolate",
+                "Where is chips",
+                "I want nuts",
+                "Do you have biscuits",
+                "Find candies",
+                "I need chocolate",
+                "Could you tell me where the chocolate is",
+                "Can you tell me where the chips is located"
+            ],
+            "responses": [
+                "Snacks are in Shelf number 6.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "beverages",
+            "patterns": [
+                "water",
+                "juice",
+                "milo",
+                "kothmale",
+                "soda",
+                "coke",
+                "pepsi",
+                "fanta",
+                "sprite",
+                "beer",
+                "Where is water",
+                "I want juice",
+                "Do you have milo",
+                "Find soda",
+                "I need pepsi",
+                "Could you tell me where fanta is",
+                "Can you tell me where the beer is located"
+            ],
+            "responses": [
+                "Beverages are in Shelf number 7.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "desserts",
+            "patterns": [
+                "ice cream",
+                "pudding",
+                "jelly",
+                "Where is ice cream",
+                "I want jelly",
+                "Do you have pudding",
+                "Find jelly",
+                "I need ice cream",
+                "Could you tell me where jelly is",
+                "Can you tell me where the pudding is"
+            ],
+            "responses": [
+                "Desserts are in Shelf number 8.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "eggs",
+            "patterns": [
+                "eggs",
+                "Where is eggs",
+                "I want eggs",
+                "Do you have eggs",
+                "Find eggs",
+                "I need eggs",
+                "Could you tell me where the eggs are",
+                "Can you tell me where the eggs"
+            ],
+            "responses": [
+                "Eggs are in Shelf number 9.\n Are you looking for anything else?"
+            ]
+        },
+        {
+            "tag": "finish",
+            "patterns": [
+                "no",
+                "thank you",
+                "thank you for your help",
+                "thank you for your assistance",
+                "That's all",
+                "I'm done",
+                "I have finished ordering",
+                "No, that's all",
+                "I'm done ordering"
+            ],
+            "responses": [
+                "Thank you for shopping with us.\n Have a nice day!"
+            ]
+        }
+    ]
+}
