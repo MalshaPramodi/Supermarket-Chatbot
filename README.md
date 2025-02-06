@@ -15,17 +15,17 @@ The training data is pre-processed and used to build a machine learning model to
 
 #### Natural Language Processing (NLP): The chatbot applies NLP techniques, such as:
 
-Tokenization: Breaking down user input into individual words.
-Stemming and Lemmatization: Reducing words to their base form to improve matching.
-Bag of Words Model: Used to represent user inputs and match them against predefined patterns.
+Tokenization: Breaking down user input into individual words.  
+Stemming and Lemmatization: Reducing words to their base form to improve matching.  
+Bag of Words Model: Used to represent user inputs and match them against predefined patterns.  
 Response Generation: Based on the matched patterns, the chatbot responds with a relevant shelf number where the product is located.
 
 Re-training: If new products or categories need to be added, the JSON file can be updated, and the chatbot model can be retrained with the new dataset.
 
 #### Technologies Used
 Python: The programming language used to develop the chatbot.  
-NLTK: A powerful library for natural language processing that helps in text processing, training, and stemming/lemmatization.
-JSON: Used to store intents, patterns, and responses.
+NLTK: A powerful library for natural language processing that helps in text processing, training, and stemming/lemmatization.  
+JSON: Used to store intents, patterns, and responses.  
 Machine Learning: Utilized for matching user inputs to predefined patterns and generating responses.
 
 ![Alt](ChatbotGUI.png)
