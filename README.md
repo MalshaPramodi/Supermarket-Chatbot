@@ -6,6 +6,8 @@ The chatbot responds to user queries related to the location of various items, p
 The purpose of this chatbot is to provide an efficient and user-friendly interface for store customers, enabling them to quickly find the location of items in a store.
 By using a chatbot, users can simply ask for a product. Check the demonstration in the NLP chatbot working prototype.zip folder
 
+![Alt](ChatbotGUI.png)
+
 #### Step-by-Step Guide
 Dataset: The chatbot’s responses and patterns are stored in a JSON file (intents.json).
          The JSON file contains various tags, patterns (user queries), and corresponding responses (shelf numbers).
