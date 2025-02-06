@@ -24,6 +24,7 @@ Re-training: If new products or categories need to be added, the JSON file can b
 
 #### Technologies Used
 Python: The programming language used to develop the chatbot.
+
 NLTK: A powerful library for natural language processing that helps in text processing, training, and stemming/lemmatization.
 JSON: Used to store intents, patterns, and responses.
 Machine Learning: Utilized for matching user inputs to predefined patterns and generating responses.
