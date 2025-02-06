@@ -6,8 +6,6 @@ The chatbot responds to user queries related to the location of various items, p
 The purpose of this chatbot is to provide an efficient and user-friendly interface for store customers, enabling them to quickly find the location of items in a store.
 By using a chatbot, users can simply ask for a product. Check the demonstration in the NLP chatbot working prototype.zip folder
 
-![Alt](ChatbotGUI.png)
-
 #### Step-by-Step Guide
 Dataset: The chatbot’s responses and patterns are stored in a JSON file (intents.json).
          The JSON file contains various tags, patterns (user queries), and corresponding responses (shelf numbers).
@@ -29,3 +27,5 @@ Python: The programming language used to develop the chatbot.
 NLTK: A powerful library for natural language processing that helps in text processing, training, and stemming/lemmatization.
 JSON: Used to store intents, patterns, and responses.
 Machine Learning: Utilized for matching user inputs to predefined patterns and generating responses.
+
+![Alt](ChatbotGUI.png)
