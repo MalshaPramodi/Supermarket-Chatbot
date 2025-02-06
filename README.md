@@ -4,7 +4,7 @@ This project is a simple chatbot application designed to assist users in locatin
 The chatbot responds to user queries related to the location of various items, providing shelf numbers based on pre-defined patterns and intents. 
 
 The purpose of this chatbot is to provide an efficient and user-friendly interface for store customers, enabling them to quickly find the location of items in a store.
-By using a chatbot, users can simply ask for a product. Check the demonstration in the #### NLP chatbot working prototype.zip folder
+By using a chatbot, users can simply ask for a product. Check the demonstration in the "NLP chatbot working prototype.zip" folder
 
 #### Step-by-Step Guide
 Dataset: The chatbot’s responses and patterns are stored in a JSON file (intents.json).
